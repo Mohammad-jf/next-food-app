@@ -1,4 +1,4 @@
-export default function SomePage() {
+export default function SomePage({ params }) {
   return (
     <>
       <h1>{params.slug}</h1>
