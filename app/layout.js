@@ -1,5 +1,5 @@
 import './globals.css';
-import MainHeader from '@/components/MainHeader';
+import MainHeader from '@/components/main-header/MainHeader';
 
 export const metadata = {
   title: 'Food App',
