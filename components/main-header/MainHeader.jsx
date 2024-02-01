@@ -1,5 +1,5 @@
 import Link from "next/link"
-import logo from '../assets/logo.png'
+import logo from '../../assets/logo.png'
 import classes from './mainHeader.module.css'
 import Image from "next/image"
 import HeaderBackground from "./HeaderBackground"
