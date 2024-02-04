@@ -3,6 +3,7 @@ import logo from '../../assets/logo.png'
 import classes from './mainHeader.module.css'
 import Image from "next/image"
 import HeaderBackground from "./HeaderBackground"
+import NavLinks from "./NavLinks"
 
 const MainHeader = () => {
     return (
@@ -14,14 +15,17 @@ const MainHeader = () => {
                     />
                     Next Food App
                 </Link>
-
                 <nav className={classes.nav}>
                     <ul>
                         <li>
-                            <Link href='/meals'>Browse Meals</Link>
+                            <NavLinks href='/meals'>
+                                Browse Meals
+                            </NavLinks>
                         </li>
                         <li>
-                            <Link href='/community'>Food Community</Link>
+                            <NavLinks href='/community'>
+                                Food community
+                            </NavLinks>
                         </li>
                     </ul>
                 </nav>
